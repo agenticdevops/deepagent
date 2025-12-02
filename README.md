@@ -15,12 +15,8 @@ All powered by Google's fast and cost-efficient **Gemini 2.5 Flash** model.
 
 ## Quick Start
 
-### 1. Clone/Setup
-```bash
-cd /Users/gshah/work/lf/09/deepagent2
-```
 
-### 2. Install Dependencies
+### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -30,7 +26,7 @@ Or with uv:
 uv add -r requirements.txt
 ```
 
-### 3. Set Up API Keys
+### 2. Set Up API Keys
 Create a `.env` file from the template:
 ```bash
 cp .env.example .env
@@ -40,7 +36,7 @@ Then add your API keys:
 - **GOOGLE_API_KEY**: Get from [Google AI Studio](https://aistudio.google.com/apikey)
 - **TAVILY_API_KEY**: Get from [Tavily](https://tavily.com)
 
-### 4. Run the Agent
+### 3. Run the Agent
 ```bash
 python gemini_quickstart.py
 ```
