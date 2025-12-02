@@ -1,0 +1,16 @@
+# Deep Agent with Gemini 2.5 Flash - Dependencies
+
+# Core framework
+deepagents>=0.2.6
+langchain-core>=0.3.0
+langchain-google-genai>=3.1.0
+tavily-python>=0.5.0
+langchain-tavily>=0.2.13
+
+# Utilities
+python-dotenv>=1.0.0
+httpx>=0.24.0
+
+# Optional: For development
+jupyter>=1.0.0
+ipython>=8.0.0
